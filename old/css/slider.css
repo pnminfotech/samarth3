@@ -1,0 +1,173 @@
+
+
+
+.banner-section .item {
+           
+    position: relative;
+  }
+  .banner-section .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .banner-section .item .cover {
+    padding: 75px 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+  }
+  .banner-section .item .cover .header-content {
+    position: relative;
+    padding: 56px;
+    overflow: hidden;
+  }
+  .banner-section .item .cover .header-content .line {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border: 9px solid #fff;
+    -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+    clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+  }
+  .banner-section .item .cover .header-content h2 {
+    font-weight: 300;
+    font-size: 35px;
+    color: #fff;
+  }
+  .banner-section .item .cover .header-content h1 {
+    font-size: 56px;
+    font-weight: 600;
+    margin: 5px 0 20px;
+    word-spacing: 3px;
+    color: #fff;
+  }
+  .banner-section .item .cover .header-content h4 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    color: #fff;
+  }
+  .banner-section .owl-item.active h1 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    animation-delay: 0.3s;
+  }
+  .banner-section .owl-item.active h2 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    animation-delay: 0.3s;
+  }
+  .banner-section .owl-item.active h4 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+    animation-delay: 0.3s;
+  }
+  .banner-section .owl-item.active .line {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInLeft;
+    animation-delay: 0.3s;
+  }
+ 
+  .banner-section .owl-nav .owl-prev span {
+    font-size: 1.6875rem;
+    color: #fff;
+  }
+  .banner-section .owl-nav .owl-prev:focus {
+    outline: 0;
+  }
+  .banner-section .owl-nav .owl-prev:hover {
+    background: #000 !important;
+  }
+ 
+  .banner-section .owl-nav .owl-next span {
+    font-size: 1.6875rem;
+    color: #fff;
+  }
+  .banner-section .owl-nav .owl-next:focus {
+    outline: 0;
+  }
+  .banner-section .owl-nav .owl-next:hover {
+    background: #000 !important;
+  }
+  .banner-section:hover .owl-prev {
+    left: 0px;
+    opacity: 1;
+  }
+  .banner-section:hover .owl-next {
+    right: 0px;
+    opacity: 1;
+  }
+
+
+  @media only screen and (max-width: 425px){
+    .banner-section .item .cover .header-content h1 {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 ;
+        word-spacing: 3px;
+        color: #fff;
+    }
+    .banner-section .item .cover .header-content {
+        position: relative;
+        padding: 18px;
+        overflow: hidden;
+    }
+    .banner-section .item .cover .header-content h4 {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 8px;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+    .banner-section .item .cover .header-content h2 {
+        font-weight: 300;
+        font-size: 13px;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+    .banner-section .item .cover .header-content .line {
+        content: "";
+        display: inline-block;
+        width: 100%;
+        height: 97%;
+        left: 0;
+        top: 0;
+        position: absolute;
+        border: 3px solid #fff;
+        -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+        clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+      }
+      .banner-section .item .cover {
+        padding: 67px 0;
+  }
+  .banner-section .item {
+
+    position: relative;
+  }
+  .features-section-two {
+    position: relative;
+    padding: 15px 0 25px;
+
+}
+}
